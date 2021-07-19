@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+.container{
+  /*background-image: url(C:/Users/emmas/.vscode/vertiefung-gifts-app/src/pictures/Splashscreen.png);*/
+  /* Full height */
+  height: 926px; 
+  width: 428px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

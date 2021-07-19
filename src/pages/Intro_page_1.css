@@ -1,0 +1,35 @@
+.Intro_page_1 {
+    text-align: center;
+  }
+  
+  div{
+    position: relative;
+    text-decoration: none;
+    color:#233862;
+  }
+
+  .button_to_2{
+    background-image: url('file:///C:/Users/emmas/.vscode/projektarbeit-miet-talk-app/src/pictures/Button2-05.png');
+    background-size: cover;
+    width: 65px;
+    height: 65px;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+    position: absolute;
+    top : 818px;
+    left : 334px;
+  }
+
+  .container1{
+    background-image: url(file:///C:/Users/emmas/.vscode/projektarbeit-miet-talk-app/src/pictures/Welcome%201.jpg);
+    height: 926px; 
+    width: 428px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  

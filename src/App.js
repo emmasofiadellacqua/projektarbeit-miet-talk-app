@@ -21,7 +21,7 @@ function App() {
 
 const Home = () => (
   <div>
-    <button onClick>
+    <button>
     <Link to='/Intro_page_1'>
     <div>Go on</div>
     </Link>

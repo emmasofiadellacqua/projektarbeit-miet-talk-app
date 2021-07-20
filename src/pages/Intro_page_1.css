@@ -1,35 +1,48 @@
-.Intro_page_1 {
-    text-align: center;
-  }
-  
-  div{
-    position: relative;
-    text-decoration: none;
-    color:#233862;
+  .text_intro_1{
+    display: block;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 40px 0px;
+    font-family: 'Montserrat';
   }
 
+ .intro_1_h1 {
+    margin-top: 130px;
+    font-size: 45px;
+    color: #233862;
+    text-align: left;
+    }
+
+  .intro_1_p {
+      margin-top: 20px;
+      font-size: 17px;
+      color: #233862;
+      text-align: left;
+      }
+  
+  .button_to_intro_2 {
+  width: fit-content;
+  display: block;
+  margin-left: auto;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  margin-top: 95%;
+  flex-direction: column; 
+}
+
   .button_to_2{
-    background-image: url('file:///C:/Users/emmas/.vscode/projektarbeit-miet-talk-app/src/pictures/Button2-05.png');
-    background-size: cover;
+    height: 65px; 
     width: 65px;
-    height: 65px;
-    background-color: transparent;
-    border: none;
-    text-align: center;
-    text-decoration:none;
-    display: inline-block;
-    position: absolute;
-    top : 818px;
-    left : 334px;
   }
 
   .container1{
-    background-image: url(file:///C:/Users/emmas/.vscode/projektarbeit-miet-talk-app/src/pictures/Welcome%201.jpg);
-    height: 926px; 
-    width: 428px;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/miet-talk.appspot.com/o/Welcome%201.svg?alt=media&token=1314718c-6281-403c-8d95-83e8d3b16c6f');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: fixed;
+    width: 100%;
+    height: 100%;
   }
 
   

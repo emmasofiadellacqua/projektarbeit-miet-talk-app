@@ -29,4 +29,16 @@ const Home = () => (
   </div>
 );
 
+const App = () => {
+  return (
+    <Router>
+      <div>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/login" component={Login} />
+        <Route exact path="/signup" component={SignUp} />
+      </div>
+    </Router>
+  );
+  };
+  
 export default App;

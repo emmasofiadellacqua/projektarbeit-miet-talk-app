@@ -1,16 +1,14 @@
-import firebase from 'firebase';
+import * as firebase from "firebase/app";
+import "firebase/auth";
 
-const config = {
-    apiKey: "AIzaSyBCrrgskhYC-HJ4v-foopRzVdr8AAkhF1I",
-    authDomain: "miet-talk.firebaseapp.com",
-    projectId: "miet-talk",
-    storageBucket: "miet-talk.appspot.com",
-    messagingSenderId: "253245663409",
-    appId: "1:253245663409:web:86fd892553198289f91a90",
-    measurementId: "G-BBXVSVJ9YB"
-};
+const app = firebase.initializeApp ({
+    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+    authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+    projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+    storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+    appId: process.env.REACT_APP_FIREBASE_APP_ID,
+    measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID
+});
 
-firebase.initializeApp(config);
-const db=firebase.firestore();
-
-export default db;
+export default app;

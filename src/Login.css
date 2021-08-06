@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    margin-left: 10px;
+  }
+
+  .container_login{
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/miet-talk.appspot.com/o/Sign%20In.svg?alt=media&token=a80ce8a9-e492-4906-8ddf-69005c8b29ec');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+  }
+
+.div_login {
+    margin-top: 350px;
+}
+  .h1_login{
+    color: #233862;
+    display: block;
+    padding-left: 20%;
+    font-family: 'Montserrat';
+    font-size: 35px;
+}
+
+.form_login {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.label_login {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.input_login {
+      margin-top: 15px;
+      width: 100%;
+      height: 30px;
+      margin-right: 20%;
+      margin-left: 0px;
+      width: 100%;
+}
+
+.button_login {
+    margin-top: 60px !important;
+    display: block;
+    margin: auto;
+    background-color: #233862;
+    border-color: #233862;
+    border-radius: 40px;
+    border-width: 30px;
+    border-style: none;
+    border-image: none;
+    padding-top: 15px;
+    padding-right: 70px;
+    padding-bottom: 15px;
+    padding-left: 70px;
+    color:white;
+    font-family: 'Montserrat';
+    font-size: 22px;     
+  }
+
+  .p_login {
+      text-align: center;
+      margin-top: 25px;
+  }

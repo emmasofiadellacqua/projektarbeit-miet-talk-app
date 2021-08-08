@@ -18,7 +18,7 @@
 
   .hello_text{
     margin-top: 50px;
-    font-size: 38px;
+    font-size: 30px;
     color: white;
     text-align: left;
     }
@@ -31,21 +31,21 @@
     }
   
     .button_to_doku{
-        height: 150px; 
-        width: 140px;
+        height: 153px; 
+        width: 142px;
       }
 
     .button_to_contact{
-        height: 150px; 
-        width: 140px;
+        height: 153px; 
+        width: 142px;
       }
 
     .button_to_wohnung{
-        height: 150px; 
-        width: 140px;
+        height: 153px; 
+        width: 142px;
       }
 
     .button_to_feed{
-        height: 150px; 
-        width: 140px;
+        height: 153px; 
+        width: 142px;
       }

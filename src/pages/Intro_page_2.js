@@ -10,7 +10,7 @@ function Intro_page_2() {
         <p className="intro_2_p">Du bekommst deinen Vermieter seit Tagen nicht ans Telefon? Kontaktiere ihn schnell und bequem über die App.</p>
       </div>
       <div className="button_to_intro_3">
-       <Link to='/Intro_page_3'>
+       <Link to='/Intro_3'>
        <img className = "button_to_3" src="https://firebasestorage.googleapis.com/v0/b/miet-talk.appspot.com/o/Raggruppa%20163.svg?alt=media&token=fb908b40-2e55-4960-8d26-3ee96a382ada" alt="to_intro_3"/>
        </Link>
       </div>

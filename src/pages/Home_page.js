@@ -15,7 +15,7 @@ const Home_page = () => {
          </Link>
       </div>
       <div className = "dokumente">
-         <Link to="/Dokumente_page"><img className = "button_to_docu" src="https://firebasestorage.googleapis.com/v0/b/miet-talk.appspot.com/o/Home%2FDokumente.svg?alt=media&token=30a8a115-776d-4045-b07b-6e6b0b106c32" alt="to_documents"/>
+         <Link to="/Dokumente_page"><img className = "button_to_doku" src="https://firebasestorage.googleapis.com/v0/b/miet-talk.appspot.com/o/Home%2FDokumente.svg?alt=media&token=30a8a115-776d-4045-b07b-6e6b0b106c32" alt="to_documents"/>
          </Link>
       </div>
       <div className="meine_wohnung">

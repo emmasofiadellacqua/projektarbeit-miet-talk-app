@@ -8,6 +8,7 @@ import SignUp from "./SignUp";
 import Intro_page_1 from "./pages/Intro_page_1";
 import Intro_page_2 from "./pages/Intro_page_2";
 import Intro_page_3 from "./pages/Intro_page_3";
+import Documents from "./pages/Documents";
 import { AuthProvider } from "./Auth";
 import PrivateRoute from "./PrivateRoute";
 
@@ -22,6 +23,7 @@ const App = () => {
           <Route exact path="/intro_1" component={Intro_page_1}/>
           <Route exact path="/intro_2" component={Intro_page_2}/>
           <Route exact path="/intro_3" component={Intro_page_3}/>
+          <Route exact path="/documents" component={Documents}/>
         </div>
       </Router>
     </AuthProvider>

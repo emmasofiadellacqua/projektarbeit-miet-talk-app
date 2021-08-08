@@ -1,0 +1,51 @@
+.container4 {
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/miet-talk.appspot.com/o/Home%2FHome.svg?alt=media&token=124f7c49-1583-46d4-8f74-33a04a5317c6');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+  }
+
+  .text_home_page{
+    display: block;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 60px 0px;
+    font-family: 'Montserrat';
+  }
+
+  .hello_text{
+    margin-top: 50px;
+    font-size: 38px;
+    color: white;
+    text-align: left;
+    }
+  
+  .home_button_grid {
+      text-align: center;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      margin-top: 100px;
+    }
+  
+    .button_to_doku{
+        height: 150px; 
+        width: 140px;
+      }
+
+    .button_to_contact{
+        height: 150px; 
+        width: 140px;
+      }
+
+    .button_to_wohnung{
+        height: 150px; 
+        width: 140px;
+      }
+
+    .button_to_feed{
+        height: 150px; 
+        width: 140px;
+      }

@@ -2,6 +2,7 @@ import React, { useCallback } from "react";
 import { withRouter } from "react-router";
 import app from "./firebase";
 import './SignUp.css';
+import {Link} from 'react-router-dom';
 
 const SignUp = ({ history }) => {
   const handleSignUp = useCallback(async event => {
@@ -32,6 +33,9 @@ const SignUp = ({ history }) => {
         </label>
         <button className="button_login" type="submit">Anmelden</button>
       </form>
+      <div className="link_login">
+      <Link to='/Login'>Zum Login</Link>
+      </div>
     </div>
     </section>
   );

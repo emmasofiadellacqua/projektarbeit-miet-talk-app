@@ -33,7 +33,7 @@ body {
   }
 
 .div_login {
-    margin-top: 350px;
+    margin-top: 250px;
 }
   .h1_login{
     color: #233862;
@@ -86,3 +86,13 @@ body {
       text-align: center;
       margin-top: 25px;
   }
+
+  .link_login {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.link_login>a {
+  text-decoration: none;
+  color: black;
+}

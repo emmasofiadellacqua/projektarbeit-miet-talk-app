@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    margin-left: 10px;
+  }
+
+  .container_profile{
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/miet-talk.appspot.com/o/Home%2FHome.svg?alt=media&token=124f7c49-1583-46d4-8f74-33a04a5317c6');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+  }
+
+.div_profile {
+    margin-top: 80px;
+}
+
+.div_profile_1 {
+  margin-top: 130px;
+}
+
+.div_profile_2 {
+  margin-top: 10px;
+}
+
+  .h1_profile{
+    color: white;
+    display: block;
+    padding-left: 20%;
+    font-family: 'Montserrat';
+    font-size: 30px;
+}
+
+  .p_profile {
+      text-align: left;
+      margin-top: 15px;
+      margin-left: 15%;
+      color: LightGray;
+      font-weight:bold;
+  }
+
+  .p_profile_1 {
+    text-align: left;
+    margin-top: -10px;
+    margin-left: 15%;
+    color: #000000;
+    font-weight:bold;
+}

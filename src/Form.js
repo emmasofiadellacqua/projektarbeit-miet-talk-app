@@ -5,7 +5,7 @@ function Form() {
     return (
       <section className="container_form">
        <div className="div_form">
-        <h1 className="h1_form"> &#10094; FORMULAR</h1>
+        <h1 className="h1_form"> &#10094; &nbsp; FORMULAR</h1>
             <form className="form_form">
                 <label className="label_form">
                  Bitte wähle eine Kategorie:

@@ -6,6 +6,7 @@ import Home_page from "./pages/Home_page";
 import Login from "./Login";
 import SignUp from "./SignUp";
 import Form from "./Form";
+import Profile from "./Profile";
 import Intro_page_1 from "./pages/Intro_page_1";
 import Intro_page_2 from "./pages/Intro_page_2";
 import Intro_page_3 from "./pages/Intro_page_3";
@@ -21,6 +22,7 @@ const App = () => {
           <Route exact path="/login" component={Login} />
           <Route exact path="/signup" component={SignUp} />
           <Route exact path="/form" component={Form} />
+          <Route exact path="/profile" component={Profile} />
           <Route exact path="/intro_1" component={Intro_page_1}/>
           <Route exact path="/intro_2" component={Intro_page_2}/>
           <Route exact path="/intro_3" component={Intro_page_3}/>

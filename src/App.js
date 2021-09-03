@@ -9,8 +9,10 @@ import Intro_page_1 from "./pages/Intro_page_1";
 import Intro_page_2 from "./pages/Intro_page_2";
 import Intro_page_3 from "./pages/Intro_page_3";
 import Documents from "./pages/Documents";
+import News from "./pages/News";
 import { AuthProvider } from "./Auth";
 import PrivateRoute from "./PrivateRoute";
+
 
 const App = () => {
   return (
@@ -24,6 +26,7 @@ const App = () => {
           <Route exact path="/intro_2" component={Intro_page_2}/>
           <Route exact path="/intro_3" component={Intro_page_3}/>
           <Route exact path="/documents" component={Documents}/>
+          <Route exact path="/newsfeed" component={News}/>
         </div>
       </Router>
     </AuthProvider>

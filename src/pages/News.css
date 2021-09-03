@@ -1,0 +1,34 @@
+.container_pinn {
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/miet-talk.appspot.com/o/Documents%2FDoc_background.svg?alt=media&token=a5d0d158-0b90-47bc-b65d-ef7da8d5341f');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  .text_pinn{
+    display: block;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 60px 0px;
+    font-family: 'Montserrat';
+  }
+
+  .pinn_text{
+    margin-top: 80px;
+    font-size: 30px;
+    color: white;
+    text-align: left;
+    }
+
+    .feed{
+        text-align: center;
+        display: grid;
+        margin-top: 100px;
+      }
+    
+      .news_view{ 
+          width: 370px;
+        }

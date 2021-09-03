@@ -13,6 +13,7 @@ import News from "./pages/News";
 import { AuthProvider } from "./Auth";
 import PrivateRoute from "./PrivateRoute";
 
+
 const App = () => {
   return (
     <AuthProvider>
@@ -26,7 +27,6 @@ const App = () => {
           <Route exact path="/intro_3" component={Intro_page_3}/>
           <Route exact path="/documents" component={Documents}/>
           <Route exact path="/newsfeed" component={News}/>
-
         </div>
       </Router>
     </AuthProvider>

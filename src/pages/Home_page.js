@@ -23,7 +23,7 @@ const Home_page = () => {
          </Link>
       </div>
       <div className="pinnwand">
-         <Link to="/newsfeed"><img className = "button_to_feed" src="https://firebasestorage.googleapis.com/v0/b/miet-talk.appspot.com/o/Home%2FPinnwand.svg?alt=media&token=7352c1e4-48a8-44e3-a5a1-0c3285b05bd2" alt="to_feed"/>
+      <Link to="/newsfeed"><img className = "button_to_feed" src="https://firebasestorage.googleapis.com/v0/b/miet-talk.appspot.com/o/Home%2FPinnwand.svg?alt=media&token=7352c1e4-48a8-44e3-a5a1-0c3285b05bd2" alt="to_feed"/>
          </Link>
       </div>
       </div>

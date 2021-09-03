@@ -11,7 +11,7 @@ const Home_page = () => {
           </div>
           <div className="home_button_grid">
       <div className="kontaktieren">
-         <Link to="/Kontakt_page"><img className = "button_to_contact" src="https://firebasestorage.googleapis.com/v0/b/miet-talk.appspot.com/o/Home%2FVermieter_kontaktieren.svg?alt=media&token=99feaa8b-d13f-453e-bb31-917453a94d7a" alt="to_contact"/>
+         <Link to="/form"><img className = "button_to_contact" src="https://firebasestorage.googleapis.com/v0/b/miet-talk.appspot.com/o/Home%2FVermieter_kontaktieren.svg?alt=media&token=99feaa8b-d13f-453e-bb31-917453a94d7a" alt="to_contact"/>
          </Link>
       </div>
       <div className = "dokumente">

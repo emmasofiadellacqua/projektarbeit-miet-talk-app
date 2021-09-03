@@ -1,6 +1,6 @@
 import React, { useCallback } from "react";
 import { withRouter } from "react-router";
-import app from "./firebase";
+import app from "../firebase";
 import './SignUp.css';
 import {Link} from 'react-router-dom';
 

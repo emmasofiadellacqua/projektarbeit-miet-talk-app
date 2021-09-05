@@ -8,6 +8,15 @@
     height: 100%;
   }
 
+  .title_docu {
+    position: absolute;
+    top: 76%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 15px;
+  }
+
   .text_doc{
     display: block;
     justify-content: center;
@@ -37,10 +46,17 @@
       margin-top: 20px;
     }
   
-    .document_view{
-        height: 153px; 
-        width: 142px;
+    .document{
+       position: relative;
+       text-align: center;
+       color: black;
+       font-size: 15px;
       }
+    
+    .document_view {
+       height: 153px; 
+       width: 142px;
+     }
 
     .upload_button{
         height: 153px; 

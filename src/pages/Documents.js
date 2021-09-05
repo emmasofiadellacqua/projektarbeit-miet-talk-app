@@ -1,8 +1,24 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import './Documents.css';
+import app from '../firebase.js'
 import {Link} from 'react-router-dom';
 
+const db = app.firestore();
+
 function Documents () {
+   const [documents,setDocuments]= useState([]);
+  useEffect(() => {
+    const fetchDocuments = async () => {
+        const documentsCollection = await db.collection("documents").get();
+        setDocuments(
+            documentsCollection.docs.map((doc) => {
+            return doc.data();
+          })
+        );
+      };
+      fetchDocuments();
+    }, []);
+
    return(
       <section className="container_doc">
         <div className="text_doc">
@@ -10,18 +26,17 @@ function Documents () {
             <p className="doc_p">Hier sind deine gespeicherte Dokumente.</p>
         </div>
         <div className="docu_grid">
-    <div className="document">
-       <Link to=""><img className = "document_view" src="https://firebasestorage.googleapis.com/v0/b/miet-talk.appspot.com/o/Documents%2FDocument.svg?alt=media&token=edabb9b0-3fc9-465c-9ddb-1473212fcd90" alt="Doku1"/>
-       </Link>
-    </div>
-    <div className = "document">
-       <Link to=""><img className = "document_view" src="https://firebasestorage.googleapis.com/v0/b/miet-talk.appspot.com/o/Documents%2FDocument.svg?alt=media&token=edabb9b0-3fc9-465c-9ddb-1473212fcd90" alt="Doku2"/>
-       </Link>
-    </div>
-    <div className="document">
-       <Link to=""><img className = "document_view" src="https://firebasestorage.googleapis.com/v0/b/miet-talk.appspot.com/o/Documents%2FDocument.svg?alt=media&token=edabb9b0-3fc9-465c-9ddb-1473212fcd90" alt="Doku3"/>
-       </Link>
-    </div>
+        {
+        documents && documents.map(document=>{
+          return(
+         <div className="document" key={document.title}>
+         <Link to={document.url}><img className = "document_view" src="https://firebasestorage.googleapis.com/v0/b/miet-talk.appspot.com/o/Documents%2FDocument_icon.svg?alt=media&token=57effe1b-e01f-401a-83df-83e27909c219" alt="Doku"/>
+         </Link>
+         <div className="title_docu">{document.title}</div>
+         </div>  )
+        })
+      }
+
     <div className="upload">
     <Link to="/file_upload"><img className = "upload_button" src="https://firebasestorage.googleapis.com/v0/b/miet-talk.appspot.com/o/Documents%2FUpload.svg?alt=media&token=c9462975-65d2-4312-ba6f-b75ea2617c2c" alt="Upload"/>
     </Link>

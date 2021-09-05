@@ -12,6 +12,7 @@ import Intro_page_2 from "./pages/Intro_page_2";
 import Intro_page_3 from "./pages/Intro_page_3";
 import Documents from "./pages/Documents";
 import News from "./pages/News";
+import Upload_files from "./pages/File_upload";
 import { AuthProvider } from "./Auth";
 import PrivateRoute from "./PrivateRoute";
 
@@ -31,6 +32,7 @@ const App = () => {
           <Route exact path="/intro_3" component={Intro_page_3}/>
           <Route exact path="/documents" component={Documents}/>
           <Route exact path="/newsfeed" component={News}/>
+          <Route exact path="/file_upload" component={Upload_files}/>
         </div>
       </Router>
     </AuthProvider>

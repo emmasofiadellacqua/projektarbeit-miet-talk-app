@@ -3,8 +3,8 @@ import './Documents.css';
 import {Link} from 'react-router-dom';
 
 function Documents () {
-    return (
-    <section className="container_doc">
+   return(
+      <section className="container_doc">
         <div className="text_doc">
             <h1 className="doc_text">Dokumente</h1>
             <p className="doc_p">Hier sind deine gespeicherte Dokumente.</p>
@@ -23,8 +23,8 @@ function Documents () {
        </Link>
     </div>
     <div className="upload">
-       <Link to=""><img className = "upload_button" src="https://firebasestorage.googleapis.com/v0/b/miet-talk.appspot.com/o/Documents%2FUpload.svg?alt=media&token=c9462975-65d2-4312-ba6f-b75ea2617c2c" alt="Upload"/>
-       </Link>
+    <Link to="/file_upload"><img className = "upload_button" src="https://firebasestorage.googleapis.com/v0/b/miet-talk.appspot.com/o/Documents%2FUpload.svg?alt=media&token=c9462975-65d2-4312-ba6f-b75ea2617c2c" alt="Upload"/>
+    </Link>
     </div>
     </div>
     </section>

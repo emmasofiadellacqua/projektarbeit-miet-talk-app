@@ -66,3 +66,10 @@
         height: 153px; 
         width: 142px;
       }
+
+      .nav_div {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }

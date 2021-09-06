@@ -26,26 +26,33 @@
   .home_button_grid {
       text-align: center;
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      margin-top: 100px;
+      grid-template-columns: repeat(2, 150px);
+      position: absolute;
+      left: 50%;
+      top: 60%;
+      transform: translate(-50%, -50%);
     }
   
     .button_to_doku{
+        position:relative;
         height: 153px; 
         width: 142px;
       }
 
     .button_to_contact{
+      position:relative;
         height: 153px; 
         width: 142px;
       }
 
     .button_to_wohnung{
+      position:relative;
         height: 153px; 
         width: 142px;
       }
 
     .button_to_feed{
+      position:relative;
         height: 153px; 
         width: 142px;
       }

@@ -42,8 +42,11 @@
   .docu_grid {
       text-align: center;
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      margin-top: 20px;
+      grid-template-columns: repeat(2, 150px);
+      position: absolute;
+      left: 50%;
+      top: 57%;
+      transform: translate(-50%, -50%);
     }
   
     .document{
@@ -54,6 +57,7 @@
       }
     
     .document_view {
+      position: relative;
        height: 153px; 
        width: 142px;
      }

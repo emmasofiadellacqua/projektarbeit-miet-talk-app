@@ -23,15 +23,15 @@ function Documents () {
       <section className="container_doc">
         <div className="text_doc">
             <h1 className="doc_text">Dokumente</h1>
-            <p className="doc_p">Hier sind deine gespeicherte Dokumente.</p>
+            <p className="doc_p">Hier sind deine gespeicherten Dokumente.</p>
         </div>
         <div className="docu_grid">
         {
         documents && documents.map(document=>{
           return(
          <div className="document" key={document.title}>
-         <Link to={document.url}><img className = "document_view" src="https://firebasestorage.googleapis.com/v0/b/miet-talk.appspot.com/o/Documents%2FDocument_icon.svg?alt=media&token=57effe1b-e01f-401a-83df-83e27909c219" alt="Doku"/>
-         </Link>
+         <a href={document.url}><img className = "document_view" src="https://firebasestorage.googleapis.com/v0/b/miet-talk.appspot.com/o/Documents%2FDocument_icon.svg?alt=media&token=57effe1b-e01f-401a-83df-83e27909c219" alt="Doku"/>
+         </a>
          <div className="title_docu">{document.title}</div>
          </div>)
         })

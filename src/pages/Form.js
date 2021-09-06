@@ -1,5 +1,6 @@
 import React from 'react';
 import './Form.css';
+import Navbar from "../components/navbar.js"
 
 function Form() {
     return (
@@ -27,6 +28,9 @@ function Form() {
                 <button className="button_form" type="submit">Abschicken</button>
             </form>
         </div>
+        <div className="nav_div"> 
+      <Navbar></Navbar>
+      </div>
       </section>
     );
   }

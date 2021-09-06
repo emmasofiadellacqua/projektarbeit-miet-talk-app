@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import './Documents.css';
 import app from '../firebase.js'
 import {Link} from 'react-router-dom';
+import Navbar from "../components/navbar.js"
 
 const db = app.firestore();
 
@@ -42,6 +43,9 @@ function Documents () {
     </Link>
     </div>
     </div>
+    <div className="nav_div"> 
+      <Navbar></Navbar>
+      </div>
     </section>
   );
 };

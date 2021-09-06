@@ -3,6 +3,7 @@ import app from '../firebase.js';
 import "./File_upload.css";
 //import { Link } from 'react-router-dom';
 import { useHistory } from 'react-router';
+import Navbar from "../components/navbar.js"
 
 
 const db = app.firestore();
@@ -46,6 +47,9 @@ function Upload_files() {
               <button className="submit">Abschicken</button>
               </div>
             </form>
+            <div className="nav_div"> 
+      <Navbar></Navbar>
+      </div>
           </section>
         );
       }

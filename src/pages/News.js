@@ -1,5 +1,6 @@
 import React from 'react';
 import './News.css';
+import Navbar from "../components/navbar.js"
 
 
 function News () {
@@ -19,6 +20,9 @@ function News () {
        <img className = "news_view" src="https://firebasestorage.googleapis.com/v0/b/miet-talk.appspot.com/o/News%2FRaggruppa%20750.png?alt=media&token=9d071fca-32e0-4613-82b4-70616c5d1e63" alt="News3"/>
     </div>
     </div>
+    <div className="nav_div"> 
+      <Navbar></Navbar>
+      </div>
     </section>
   );
 };

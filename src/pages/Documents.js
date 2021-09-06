@@ -33,7 +33,7 @@ function Documents () {
          <Link to={document.url}><img className = "document_view" src="https://firebasestorage.googleapis.com/v0/b/miet-talk.appspot.com/o/Documents%2FDocument_icon.svg?alt=media&token=57effe1b-e01f-401a-83df-83e27909c219" alt="Doku"/>
          </Link>
          <div className="title_docu">{document.title}</div>
-         </div>  )
+         </div>)
         })
       }
 

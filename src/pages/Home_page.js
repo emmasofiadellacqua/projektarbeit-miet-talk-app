@@ -19,7 +19,7 @@ const Home_page = () => {
          </Link>
       </div>
       <div className="meine_wohnung">
-         <Link to="/calendar"><img className = "button_to_calendar" src="https://firebasestorage.googleapis.com/v0/b/miet-talk.appspot.com/o/Home%2FKalendar.svg?alt=media&token=d5d26bbc-c88a-4550-81f5-851a8f19c295" alt="to_calendar"/>
+         <Link to="/scheduler"><img className = "button_to_calendar" src="https://firebasestorage.googleapis.com/v0/b/miet-talk.appspot.com/o/Home%2FKalendar.svg?alt=media&token=d5d26bbc-c88a-4550-81f5-851a8f19c295" alt="to_calendar"/>
          </Link>
       </div>
       <div className="pinnwand">

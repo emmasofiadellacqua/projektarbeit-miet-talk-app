@@ -56,7 +56,7 @@ function News () {
         </div>
        <div className="form_container">
         <form onSubmit={onSubmit} className="form_news">
-            <label for="picture-upload" class="custom-file-upload">Bild auswählen</label>
+            <label for="picture-upload" class="custom-file-upload-news">Bild auswählen</label>
               <input type="file" onChange={onFileChange} id="picture-upload" className="file_input" />
               <input type="text" name="author" placeholder="Dein Name" className="author" /><br/>
               <input type="text" name="content" placeholder="Text hinzufügen..." className="content" /><br/>

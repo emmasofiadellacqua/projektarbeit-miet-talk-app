@@ -85,12 +85,12 @@
     input[type="file"] {
       display: none;
   }
-  .custom-file-upload {
+  .custom-file-upload-news {
       text-align: center;
       font-family: "Montserrat";
       color:#F99746;
       font-weight: 400;
-      font-size: 18px;
+      font-size: 15px;
   }
 
 .feed {
@@ -111,7 +111,7 @@
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   border-color: transparent;
   border-radius: 20px;
-  color: black;
+  color:#788C9B;
   font-family: "Montserrat";
   position: relative;
   text-align: left;
@@ -120,16 +120,16 @@
   }
 
   .post_author {
-    font-weight: 300;
+    font-weight: 500;
     margin-top: 20px;
     margin-left: 20px;
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .post_content {
     margin-right: 20px;
     margin-left: 20px;
-    font-size: 14px;
+    font-size: 12px;
     margin-bottom: 10px;
   }
 

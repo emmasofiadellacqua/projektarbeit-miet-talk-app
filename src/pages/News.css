@@ -8,6 +8,65 @@
     height: 100%;
   }
 
+  .form_container {
+    text-align: center;
+    position: absolute;
+    width: 90%;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    
+  }
+
+  .form_news {
+    position: relative;
+  }
+
+  .author {
+    height: 25px;
+    width: 290px;
+    margin-top: 5px;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    color: #788C9B;
+    text-align: left;
+    border-color: #71A0FF;
+    border-width: 1px;
+    border-radius:40px;
+    text-align: center;
+    }
+
+    .content {
+      height: 60px;
+      width: 290px;
+      margin-top: 5px;
+      font-size: 14px;
+      font-family: 'Montserrat';
+      color: #788C9B;
+      text-align: left;
+      border-color: #71A0FF;
+      border-width: 1px;
+      border-radius:25px;
+      text-align: center;
+      }
+
+      .submit_post {
+        position:relative;
+        margin-top: 5% ;
+        margin-left:auto;
+        width: 290px;
+        height: 40px;
+        background-color: #233862;
+        border-color: transparent;
+        border-radius: 40px;
+        color:white;
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 14px;     
+      }
+
+
+
   .text_pinn{
     display: block;
     justify-content: center;
@@ -23,13 +82,59 @@
     text-align: left;
     }
 
-    .feed{
-        text-align: center;
-        display: grid;
-        margin-top: 100px;
-      }
-    
-      .news_view{ 
-          width: 370px;
-        }
+    input[type="file"] {
+      display: none;
+  }
+  .custom-file-upload-news {
+      text-align: center;
+      font-family: "Montserrat";
+      color:#F99746;
+      font-weight: 400;
+      font-size: 15px;
+  }
 
+.feed {
+  text-align: center;
+  position: absolute;
+  display: grid;
+  width: 90%;
+  left: 50%;
+  top: 810px;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  
+}
+.news {
+  width: 100%;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-color: transparent;
+  border-radius: 20px;
+  color:#788C9B;
+  font-family: "Montserrat";
+  position: relative;
+  text-align: left;
+  border-bottom: 20px;
+  margin-top:15px;
+  }
+
+  .post_author {
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 14px;
+  }
+
+  .post_content {
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .post_img {
+    width: 50%;
+    margin-left: 40px;
+    margin-bottom: 10px;
+  }

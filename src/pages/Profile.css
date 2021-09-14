@@ -67,3 +67,10 @@ body {
     color: #000000;
     font-weight:bold;
 }
+
+.nav_div {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

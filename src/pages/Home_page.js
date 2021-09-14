@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home_page.css';
 import {Link} from 'react-router-dom';
-
+import Navbar from "../components/navbar.js"
 
 const Home_page = () => {
       return (
@@ -19,13 +19,16 @@ const Home_page = () => {
          </Link>
       </div>
       <div className="meine_wohnung">
-         <Link to="/Wohnung_page"><img className = "button_to_wohnung" src="https://firebasestorage.googleapis.com/v0/b/miet-talk.appspot.com/o/Home%2FMeine%20Wohnung.svg?alt=media&token=e99fb45d-f171-4cc2-a666-fa6af210ebce" alt="to_wohnung"/>
+         <Link to="/scheduler"><img className = "button_to_calendar" src="https://firebasestorage.googleapis.com/v0/b/miet-talk.appspot.com/o/Home%2FKalendar.svg?alt=media&token=d5d26bbc-c88a-4550-81f5-851a8f19c295" alt="to_calendar"/>
          </Link>
       </div>
       <div className="pinnwand">
       <Link to="/newsfeed"><img className = "button_to_feed" src="https://firebasestorage.googleapis.com/v0/b/miet-talk.appspot.com/o/Home%2FPinnwand.svg?alt=media&token=7352c1e4-48a8-44e3-a5a1-0c3285b05bd2" alt="to_feed"/>
          </Link>
       </div>
+      </div>
+      <div className="nav_div"> 
+      <Navbar></Navbar>
       </div>
       </section>
     );

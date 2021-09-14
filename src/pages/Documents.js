@@ -48,6 +48,7 @@ useEffect(() => {
         </Link>
         </div>
         </div>
+        <Navbar></Navbar>
       </section>
 );
 }

@@ -1,27 +1,26 @@
-import React, { useState } from 'react';
-import { Document, Page } from 'react-pdf';
+import React from 'react';
+import { Worker } from '@react-pdf-viewer/core';
+import { Viewer } from '@react-pdf-viewer/core';
+
+const pdfVersion = "2.6.347";
+const pdfWorkerUrl = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfVersion}/pdf.worker.js`;
 
 function Pdf_viewer(props) {
 
   const document = props.location.document;
-  const [numPages, setNumPages] = useState(null);
-  const [pageNumber, setPageNumber] = useState(1);
 
-  function onDocumentLoadSuccess({ numPages }) {
-    setNumPages(numPages);
-  }
+  console.log(document);
 
   return (
+    <Worker workerUrl={pdfWorkerUrl}>
     <div>
-      <Document
-        file={document.url}
-        onLoadSuccess={onDocumentLoadSuccess}
-      >
-        <Page pageNumber={pageNumber} />
-      </Document>
-      <p>Seite {pageNumber} von {numPages}</p>
+      <Viewer
+        fileUrl={document.url}
+      />
     </div>
+  </Worker>
   );
+
 }
 
 export default Pdf_viewer;

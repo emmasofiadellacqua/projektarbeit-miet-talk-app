@@ -3,30 +3,20 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: fixed;
-    width: 100%;
-    height: 100%;
   }
 
-  .title_docu {
-    position: absolute;
-    top: 76%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: black;
-    font-size: 15px;
-  }
 
   .text_doc{
-    display: block;
+    position: sticky;
     justify-content: center;
-    flex-direction: column;
     padding: 0px 60px 0px;
     font-family: 'Montserrat';
+    height: 230px;
+    margin-top: 80px;
+    top: 80px;
   }
 
   .doc_text{
-    margin-top: 80px;
     font-size: 30px;
     color: white;
     text-align: left;
@@ -43,10 +33,7 @@
       text-align: center;
       display: grid;
       grid-template-columns: repeat(2, 150px);
-      position: absolute;
-      left: 50%;
-      top: 57%;
-      transform: translate(-50%, -50%);
+      margin-top: 10px;
     }
   
     .document{
@@ -61,6 +48,15 @@
        height: 153px; 
        width: 142px;
      }
+
+     .title_docu {
+      position: absolute;
+      top: 76%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: black;
+      font-size: 15px;
+    }
 
     .upload_button{
         height: 153px; 

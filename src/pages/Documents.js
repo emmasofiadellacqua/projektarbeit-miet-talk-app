@@ -6,7 +6,7 @@ import Navbar from "../components/navbar.js"
 
 const db = app.firestore();
 
-function Documents_og () {
+function Documents () {
 
 const [documents,setDocuments]= useState([]);
 
@@ -54,4 +54,4 @@ useEffect(() => {
 }
 
 
-export default Documents_og;
+export default Documents;

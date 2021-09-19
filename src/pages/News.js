@@ -2,7 +2,9 @@ import React, {useState, useEffect} from 'react';
 import './News.css';
 import Navbar from "../components/navbar.js";
 import app from "../firebase.js";
-
+import { Link } from "react-router-dom";
+import ChatBubbleOutlineIcon from '@material-ui/icons/ChatBubbleOutline';
+import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 
 const db = app.firestore();
  
@@ -72,9 +74,14 @@ function News () {
         posts && posts.map(post=>{
           return(
          <div className="news" key={post.content}>
+        <div className="avatar_icon"><AccountCircleIcon style={{height: '25px',width: "auto",color:"#EBF3FA"}}/></div>
          <div className="post_author">{post.author}</div><br/>
+         <hr className="separator"></hr>
          <div className="post_content">{post.content}</div><br/>
          <div className="post_pic"><img className = "post_img" src={post.picture} alt="Pic"/></div>
+         <hr className="separator"></hr>
+         <div className="chat_icon"><ChatBubbleOutlineIcon style={{height: '22px',width: "auto",color:"#71A0FF"}}/></div>
+         <div className="link_to_mess"><Link to="/messaging" className="post_contact">Kontaktieren</Link></div>
          </div>)
         })
       }

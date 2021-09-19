@@ -122,10 +122,46 @@
     margin-left: 20px;
     font-size: 12px;
     margin-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  .post_pic {
+   padding-bottom: 10px;
   }
 
   .post_img {
     width: 50%;
     margin-left: 40px;
     margin-bottom: 10px;
+  }
+
+  .link_to_mess {
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+
+  .post_contact {
+    font-size: 12px;
+    text-decoration: none;
+    color: #788C9B;
+  }
+
+  .chat_icon {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    float: left;
+    padding: 0px 20px 0px
+  }
+
+  .separator {
+  margin-top: 0px !important;
+  border: 0; border-top: 1px solid #B2B2B2;
+   width: 90%;
+  }
+
+  .avatar_icon {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    float: left;
+    padding: 15px 10px 0px
   }

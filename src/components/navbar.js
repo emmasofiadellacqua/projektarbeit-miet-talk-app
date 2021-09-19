@@ -9,7 +9,7 @@ const Navbar = () => {
     return(
     <div className="nav_div">
     <BottomNavigation className="navbar" style={{ background: '#EBF3FA',height: '70px' }}>
-    <Link to=""><BottomNavigationAction label="Nachrichten" icon={<EmailOutlinedIcon  style={{height: '35px',width: "auto",color:"#71A0FF"}}/>} /></Link>
+    <Link to="/messaging"><BottomNavigationAction label="Nachrichten" icon={<EmailOutlinedIcon  style={{height: '35px',width: "auto",color:"#71A0FF"}}/>} /></Link>
     <Link to="/"><BottomNavigationAction label="Home" icon={<HomeOutlinedIcon style={{height: '35px',width: "auto",color:"#71A0FF"}}/>} /></Link>
     <Link to="/profile"><BottomNavigationAction label="Profile" icon={<AccountCircleOutlinedIcon style={{height: '35px',width: "auto",color:"#71A0FF"}}/>} /></Link>
   </BottomNavigation>

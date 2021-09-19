@@ -17,6 +17,7 @@ import Calendar from "./pages/Scheduler";
 import Upload_files from "./pages/File_upload";
 import { AuthProvider } from "./Auth";
 import PrivateRoute from "./PrivateRoute";
+import Messaging from "./pages/Messaging";
 
 
 const App = () => {
@@ -37,7 +38,8 @@ const App = () => {
           <Route exact path="/file_upload" component={Upload_files}/>
           <Route exact path="/pdf_viewer" component={Pdf_viewer}/>
           <Route exact path="/scheduler" component={Calendar}/>
-        </div>
+          <Route exact path="/messaging" component={Messaging}/>        
+          </div>
       </Router>
     </AuthProvider>
   );

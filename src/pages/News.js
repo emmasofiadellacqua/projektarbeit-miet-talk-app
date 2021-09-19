@@ -54,6 +54,7 @@ function News () {
         <div className="text_pinn">
             <h1 className="pinn_text">Pinnwand</h1>
         </div>
+        <div className="sub_container_news">
        <div className="form_container">
         <form onSubmit={onSubmit} className="form_news">
             <label for="picture-upload" class="custom-file-upload-news">Bild auswählen</label>
@@ -78,7 +79,7 @@ function News () {
         })
       }
          </div>
-         
+         </div>
       <div className="nav_div"> 
          <Navbar></Navbar>
          </div>

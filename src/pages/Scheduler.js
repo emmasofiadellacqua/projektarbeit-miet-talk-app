@@ -47,7 +47,7 @@ const styles = theme => ({
       tooltipText: {
         ...theme.typography.body2,
         display: 'inline-block',
-      },
+        },
       title: {
         ...theme.typography.h6,
         color: theme.palette.text.secondary,
@@ -83,25 +83,25 @@ const currentDate = '2021-09-01';
 const appointments = [
     {
       id: 0,
-      title: 'Landlord check',
+      title: 'Gelber Sack',
       startDate: new Date(2021, 8, 22, 10, 30),
       endDate: new Date(2021, 8, 22, 11, 30),
       ownerId: 1,
     }, {
       id: 1,
-      title: 'Monthly building meeting',
+      title: 'Bio Müll',
       startDate: new Date(2021, 8, 25, 19, 30),
       endDate: new Date(2021, 8, 25, 21, 30),
       ownerId: 1,
     }, {
       id: 2,
-      title: 'Paper trash pick-up',
+      title: 'Gaszähler ablesen',
       startDate: new Date(2021, 8, 30, 7, 0),
       endDate: new Date(2021, 8, 30, 7, 10),
       ownerId: 2,
     }, {
         id: 3,
-        title: 'Landlord away',
+        title: 'Treppenhausreinigung',
         startDate: new Date(2021, 8, 5, 7, 0),
         endDate: new Date(2021, 8, 5, 18, 0),
         ownerId: 2,

@@ -8,6 +8,9 @@
     height: 100%;
 }
 
+input:focus, textarea:focus, select:focus{
+    outline: none;}
+
 .text_form {
     display: block;
     justify-content: center;

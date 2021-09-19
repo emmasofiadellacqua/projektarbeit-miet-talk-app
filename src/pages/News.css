@@ -165,3 +165,6 @@
     float: left;
     padding: 15px 10px 0px
   }
+
+  input:focus, textarea:focus, select:focus{
+    outline: none;}

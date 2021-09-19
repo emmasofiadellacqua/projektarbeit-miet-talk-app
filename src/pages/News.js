@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import ChatBubbleOutlineIcon from '@material-ui/icons/ChatBubbleOutline';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 
+
 const db = app.firestore();
  
 function News () {
@@ -34,7 +35,6 @@ function News () {
       setPicture(await fileRef.getDownloadURL());
     };
     
-    //const history = useHistory();
     const onSubmit = async (e) => {
       e.preventDefault();
       const author = e.target.author.value;
@@ -47,7 +47,7 @@ function News () {
         author: author,
         picture: picture,
       });
-     //history.push("/news_feed")
+      window.location.reload()
     };
 
 

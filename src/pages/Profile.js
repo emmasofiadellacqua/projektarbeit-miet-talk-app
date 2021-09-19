@@ -11,7 +11,7 @@ function Profile () {
   <section className="Profile_wrapper">
 
   <div className="div_profile">
-      <h1 className="h1_profile"> <Link to="/" className="Link">&#10094;</Link>&nbsp; Profil</h1>
+      <h1 className="h1_profile"> <Link to="/homepage" className="Link">&#10094;</Link>&nbsp; Profil</h1>
   </div>
   <div className="Profile_Picture">
   <svg xmlns="http://www.w3.org/2000/svg" width="137" height="117" viewBox="0 0 137 117">

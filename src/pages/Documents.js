@@ -24,7 +24,7 @@ useEffect(() => {
 
  return(
     <section className="container_doc">
-      <div className="text_doc">
+      <div className="container_text_doc">
           <h1 className="doc_text">Dokumente</h1>
           <p className="doc_p">Hier sind deine gespeicherten Dokumente.</p>
       </div>

@@ -7,27 +7,24 @@
   }
 
  .intro_1_h1 {
-    margin-top: 130px;
-    font-size: 45px;
+    padding-top: 20px;
+    font-size: 40px;
     color: #233862;
     text-align: left;
     }
 
   .intro_1_p {
       margin-top: 20px;
-      font-size: 17px;
+      font-size: 15px;
       color: #233862;
       text-align: left;
       }
   
   .button_to_intro_2 {
   width: fit-content;
-  display: block;
   margin-left: auto;
   margin-right: 30px;
-  margin-bottom: 30px;
-  margin-top: 95%;
-  flex-direction: column; 
+  padding-top: 260px;
 }
 
   .button_to_2{
@@ -36,7 +33,7 @@
   }
 
   .container1{
-    background-image: url('https://firebasestorage.googleapis.com/v0/b/miet-talk.appspot.com/o/Welcome%201.svg?alt=media&token=1314718c-6281-403c-8d95-83e8d3b16c6f');
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/miet-talk.appspot.com/o/Introduction%2FWelcome%201.svg?alt=media&token=2436535e-abbb-4ac7-8311-122fc9e31e03');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -46,4 +43,25 @@
     overflow: scroll;
   }
 
+  .close_intro_container {
+    padding-top: 50px;
+    margin-right: 40px;
+    text-align: right;
+  }
+
+  .close_button {
+    height: 23px;
+    width: 23px;
+  }
+
+.dots_container  {
+  padding-top: 10px;
+  margin-left: 40px;
+  text-align: left;
+}
+
+.dots {
+  height: 10px;
+  width: 52px;
+}
   

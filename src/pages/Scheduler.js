@@ -105,6 +105,31 @@ const appointments = [
         startDate: new Date(2021, 8, 5, 7, 0),
         endDate: new Date(2021, 8, 5, 18, 0),
         ownerId: 2,
+      }, {
+        id: 4,
+        title: 'Bio Müll',
+        startDate: new Date(2021, 8, 12, 8, 30),
+        endDate: new Date(2021, 8, 12, 11, 30),
+        ownerId: 1,
+      }, {
+        id: 5,
+        title: 'Heizungswartung',
+        startDate: new Date(2021, 8, 3, 12, 0),
+        endDate: new Date(2021, 8, 3, 13, 0),
+        ownerId: 2,
+      }, {
+        id: 6,
+        title: 'Papier',
+        startDate: new Date(2021, 8, 17, 7, 0),
+        endDate: new Date(2021, 8, 17, 9, 0),
+        ownerId: 2,
+      }
+      , {
+        id: 7,
+        title: 'Gelber Sack',
+        startDate: new Date(2021, 8, 3, 7, 0),
+        endDate: new Date(2021, 8, 3, 9, 0),
+        ownerId: 2,
       }];
    
     const Appointment = withStyles(styles, { name: 'Appointment' })(({ classes, ...restProps }) => (

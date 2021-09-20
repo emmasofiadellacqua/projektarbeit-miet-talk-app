@@ -5,9 +5,12 @@ import {Link} from 'react-router-dom';
 function Intro_page_3() {
     return (
       <section className="container3">
+        <div className="logo_container">
+        <img className = "logo" src="https://firebasestorage.googleapis.com/v0/b/miet-talk.appspot.com/o/Introduction%2FLogo.svg?alt=media&token=42ef92ca-7467-45b1-aaf5-32e4d8633b71" alt="logo"/>
+        </div>
         <div className = "close_intro_container">
         <Link to='/signup'>
-       <img className = "close_button" src="https://firebasestorage.googleapis.com/v0/b/miet-talk.appspot.com/o/Introduction%2FClose_button.svg?alt=media&token=8321112c-f7ec-46f0-9c2b-67385a0f1070" alt="to_signup"/>
+       <img className = "close_button" src="https://firebasestorage.googleapis.com/v0/b/miet-talk.appspot.com/o/Introduction%2FClose_button_blue.svg?alt=media&token=fce0d9b8-0ce9-4878-b8bd-f3aa4fda5484" alt="to_signup"/>
        </Link>
        </div>
       <div className="text_intro_3">

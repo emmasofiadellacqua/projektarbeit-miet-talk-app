@@ -6,7 +6,7 @@ function Intro_page_3() {
     return (
       <section className="container3">
         <div className="logo_container">
-        <img className = "logo" src="https://firebasestorage.googleapis.com/v0/b/miet-talk.appspot.com/o/Introduction%2FLogo.svg?alt=media&token=42ef92ca-7467-45b1-aaf5-32e4d8633b71" alt="logo"/>
+        <img className = "logo" src="https://firebasestorage.googleapis.com/v0/b/miet-talk.appspot.com/o/Introduction%2FLogo_dark.svg?alt=media&token=7f13716b-6153-42ef-bb3c-ef20c0a555e7" alt="logo"/>
         </div>
         <div className = "close_intro_container">
         <Link to='/signup'>

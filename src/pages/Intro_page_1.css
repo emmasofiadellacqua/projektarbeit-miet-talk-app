@@ -33,7 +33,7 @@
   }
 
   .container1{
-    background-image: url('https://firebasestorage.googleapis.com/v0/b/miet-talk.appspot.com/o/Introduction%2FWelcome%201.svg?alt=media&token=2436535e-abbb-4ac7-8311-122fc9e31e03');
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/miet-talk.appspot.com/o/Introduction%2FWelcome%201.svg?alt=media&token=da4b5eaf-305e-4917-9cc8-80291294d3a1');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -64,4 +64,14 @@
   height: 10px;
   width: 52px;
 }
-  
+
+.logo_container {
+ float: left;
+ padding-top: 35px;
+ margin-left: 30px;
+}
+
+.logo {
+  height: 45px;
+  width: 140x;
+}

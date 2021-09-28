@@ -79,7 +79,7 @@ const styles = theme => ({
       },
     });
 
-const currentDate = '2021-09-01';
+
 const appointments = [
     {
       id: 0,
@@ -184,7 +184,6 @@ export default class Calendar extends React.PureComponent {
       data={data}
     >
       <ViewState
-        currentDate={currentDate}
       />
  
    <EditingState
